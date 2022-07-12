@@ -1,6 +1,5 @@
 import React from 'react';
-import { View,Text} from 'react-native';
-
+import { View, Text} from 'react-native';
 import { styles } from './style';
 import { Copyright } from '../Copyright';
 import { Option } from '../Option';

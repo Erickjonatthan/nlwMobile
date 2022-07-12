@@ -1,10 +1,10 @@
 import React, {useRef, useState} from 'react';
-import {View, TouchableOpacity } from 'react-native';
+
 import { styles } from './style';
 import { ChatTeardropDots } from 'phosphor-react-native';
 import { theme } from '../../theme';
 import BottomSheet from '@gorhom/bottom-sheet';
-import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
+import { gestureHandlerRootHOC, TouchableOpacity } from 'react-native-gesture-handler';
 import { Options } from '../Options';
 import { Form } from '../Form'
 import { feedbackTypes } from '../../utils/feedbackTypes';
